@@ -1,3 +1,7 @@
+html {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: black;
+}
 .material-icons {
     font-family: 'Material Icons';
     font-weight: normal;
@@ -85,10 +89,14 @@ ul {
     /* width: 1100px; */
 }
 .container-left {
+    background-color: black;
+    color:white;
     margin-left: 1.5rem;
     padding: 1.5rem 1.5rem 0 0;
 }
 .container-right {
+    background-color: black;
+    color: white;
     padding: 1.5rem 0 0 0;
     width: 402px;
 }
@@ -111,12 +119,6 @@ ul {
 .info-content .reply {
     transform: scaleX(-1);
 }
-
-/* .info .info-text {
-    display: block;
-    font-weight: 400;
-} */
-
 .info .info-blank {
     flex: 1;
     flex-basis: 1e-9px;
@@ -138,4 +140,110 @@ ul {
 
 .social-icons i {
     padding: 6px;
+}
+.thumbnail.flexbox {
+    position: relative;
+    justify-content: initial;
+    width: 100%;
+    padding-top: 1rem;
+    margin-bottom: .5rem;
+    text-decoration: none;
+}
+
+.thumbnail-img {
+    position: relative;
+    margin-right: .5rem;
+}
+
+.thumbnail-img .duration {
+    width: 100%;
+    padding: 5px;
+    margin-top: -27px;
+    text-align: right;
+}
+
+.duration span {
+    padding: 1px 4px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 2px;
+    background-color: #000;
+    color: white;
+}
+
+.thumbnail_watch-later {
+    position: absolute;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    padding: 4px;
+    right: 0;
+    gap: 4px;
+}
+
+.thumbnail_watch-later i.material-icons {
+    font-size: 20px;
+    padding: 3px 4px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.thumbnail-info-container {
+    margin-right: 1.5rem;
+}
+
+.thumbnail-info_title {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0 0 4px;
+    line-height: 1.15;
+}
+
+.thumbnail-info > div {
+    font-size: 13px;
+    color: #aaa;
+}
+
+.thumbnail-info_channel-name,
+.thumbnail-info_video-info {
+    line-height: 1.5;
+}
+
+.thumbnail-info_channel-name {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.thumbnail-overlay {
+    position: absolute;
+    right: 0;
+    visibility: hidden;
+    color: #aaa;
+}
+
+
+.recommendations-container .thumbnail.thumbnail.flexbox {
+    padding-top: 0;
+}
+
+.recommendations-container .thumbnail_add-playlist {
+    position: absolute;
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    padding: 4px;
+    right: 0;
+    gap: 4px;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+a {
+    text-decoration: none;
 }
