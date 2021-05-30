@@ -1,0 +1,141 @@
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px; 
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+}
+.flexbox {
+    display: flex;
+    justify-content: center;
+}
+.header{
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top:0px;
+    left: 0px;
+    right: 0px;
+    background-color: #202020;
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    height: 3.5rem;
+    padding: 0 1rem;
+    display: flex;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+}
+.nav-item {
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+.left-bunttons {
+    margin-right: 0;
+}
+
+
+.search-box .search {
+    outline: none;
+    background-color: #121212;
+    color: rgba(255, 255, 255, 0.88);
+    padding: 2px 6px;
+    width: 650px;
+    border: 1px solid #303030;
+    border-right: none;
+    
+}
+.search input[type="text"] {
+    outline: none;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.88);
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-left: .25rem;
+    width: 100%;
+}
+.search-box .search-bar-button {
+    cursor: pointer;
+    width: 4rem;
+    border: 1px solid #303030;
+    background-color: rgba(255, 255, 255, 0.08);
+    margin: 0;
+    padding: 2px 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.right-buttons {
+    padding-right: 16px;
+}
+
+.container {
+    margin: auto;
+    padding-top: 3.5rem;
+    /* width: 1100px; */
+}
+.container-left {
+    margin-left: 1.5rem;
+    padding: 1.5rem 1.5rem 0 0;
+}
+.container-right {
+    padding: 1.5rem 0 0 0;
+    width: 402px;
+}
+.frame {
+    position: relative;
+}
+.info-content {
+    padding: 1.25rem 0 .5rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.info-content .flexbox {
+    align-items: center;
+}
+.info-content h1.text-size {
+    font-size: 18px;
+}
+.info-content .info {
+    color: #aaa;
+}
+.info-content .reply {
+    transform: scaleX(-1);
+}
+
+/* .info .info-text {
+    display: block;
+    font-weight: 400;
+} */
+
+.info .info-blank {
+    flex: 1;
+    flex-basis: 1e-9px;
+}
+
+.menu-container {
+    position: relative;
+}
+
+.menu-container .menu {
+    position: relative;
+    top: 4px;
+}
+
+.social-icons a {
+    padding-right: 8px;
+    color: #aaa;
+}
+
+.social-icons i {
+    padding: 6px;
+}
